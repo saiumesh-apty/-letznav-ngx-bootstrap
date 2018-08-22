@@ -36,7 +36,7 @@
              class="form-control text-center bs-timepicker-field"
              placeholder="HH"
              maxlength="2"
-             readonly
+             [disabled]="true"
              [readonly]="readonlyInput"
              [value]="hours"
              (wheel)="prevDef($event);changeHours(hourStep * wheelSign($event), 'wheel')"
@@ -48,7 +48,7 @@
     <!-- minutes -->
     <td class="form-group" [class.has-error]="invalidMinutes">
       <input type="text"
-             readonly
+             [disabled]="true"
              class="form-control text-center bs-timepicker-field"
              placeholder="MM"
              maxlength="2"
