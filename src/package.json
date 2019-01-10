@@ -1,5 +1,5 @@
 {
-  "name": "ngx-bootstrap",
+  "name": "@letznav/ngx-bootstrap",
   "es2015": "bundles/ngx-bootstrap.es2015.js",
   "peerDependencies": {
     "@angular/common": "*",
@@ -8,5 +8,6 @@
     "@angular/forms": "*",
     "typescript": "*",
     "rxjs": "*"
-  }
+  },
+  "version": "2.1.2"
 }
